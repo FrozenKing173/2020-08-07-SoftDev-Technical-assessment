@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "dst7RBwMYpU8dZxkALk//TdGec8+oiIuXZfmc6D46sohRMt0RrPccQOrWiFQN56Tlg60Wwol2Io5NKMvDtmf8A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\FrozenKing173\\Desktop\\DPO Paygate\\Q5\\DPO Paygate Question 5\\DPO Paygate Question 5\\DPO Paygate Question 5.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\FrozenKing173\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
+  ],
+  "logs": []
+}

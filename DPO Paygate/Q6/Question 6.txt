@@ -1,0 +1,3 @@
+Question 6:
+
+The second term for a fibonacci sequence, is called an infiniate spiral.

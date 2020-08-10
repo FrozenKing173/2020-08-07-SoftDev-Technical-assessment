@@ -1,0 +1,13 @@
+Question 9:
+
+My least favorite feature in C# is around creating dynamic objects at runtime and also memory allocation to the sizes of arrays, that you have to specify the size before using it unless you are casting it..
+
+I know there is a solution for this in the .net framework, called something like DynamicObject. But it's so much simpler creating dynamic objects with javascript.
+I know you could use maps or lists to work around this. But having to dynamically extend any objects at runtime would be a really cool feature. I guess you could also use wrapper classes to add behavior to a class. But even those need to be coded to be added to the class hierarchy.
+I'm talking more about spinning up a dynamic object from a request where you can add properties, methods, and behaviors at runtime. In a much simpler fashion than telling the program to create a dynamic object.
+
+So I would modify the base 'Object' class in C# to be extended or modified into a different kind of object with options to it, to be able to manipulate it easier than specifying that you are working with a dynamic object.
+
+Regarding the arrays. It's definitely annoying having to specify the index to work with it, obviously, you can't just do the add or remove functionality unless you cast it to list or recreate another array with a bigger size or I guess you could just cast it to a temporary array. But I think arrays could have more advanced methods to manipulate the data and the indexes, than having to cast and manipulate it with the System.Linq library.
+
+Lastly, a feature that I'm still hoping to see in the near future, is something called gamification. I think this would work well with Git if you could hook up a personal email rather than just your work email and kind of showcase the amount of code you have written in your entire career along with cool achievements, perhaps on non-functional requirements that you've worked on and basically any real value that you've added to the business.

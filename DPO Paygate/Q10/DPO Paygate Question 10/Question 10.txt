@@ -1,0 +1,47 @@
+Question 10:
+
+-The Namespace could of have a more apprioriate name like 'ApiName.Database' or 'ApiName.Api.DbMigrations'. So make the project name more apprioriate and relevant, however this is an InterviewTest.
+
+-The class name is also not apprioriate as this class is not really a handler but more of a data access 'layer' class. A name like 'AccessData' should be more appriopriate. I prefer Handlers being used 
+in the context of manipulating data than storing data. A better name could also include the entity that this AccessData class will be executing. To give more info about the operations of the class.
+ 
+-Let's talk about the method 'private bool DoWork(string A, string B)
++ The method should also be public in this context unless you want to make it a singleton class or add thread safety by locking threads that are executing the method.
++ The return type of boolean is not appropriate in this context since we want to return string unless you were executing a nonquery and just want return whether the execution succeeded or not.
++ The method name is definitely not appropriate, because it doesnt give me any context of method besides that it's doing something. A better name would be "FindSID", "GetSID" or "GetSIDValue".
++ The parameters string A and string B. Sounds very ambigious and it doesn't give me any context of the arguments being sent through. Ideally you want to pass through an appropriate model or entity.
+So that you have a better understand with what model/blueprint you working with and also increases the readability, also parameters shouldn't start with capital letters.
+
+-On to line 15, using the keyword var is slower than using the appropriate reference type.
+Another best practice is not to include the connection details inside a method. You do actually want to get it from configuration file. So that the connection details are loosely coupled than being
+hard coded in the method. Having it in configuration file helps maintain the code better and not modifying the class as this violates the principle about classes should be open for extension and closed for modication.
+It's also good practice to pass security details or other appropriate parameter in the connection string if required.
+
+- Creating SQLConenctions and commands should definitely be in try and catch blocks, to handle different SQLExceptions.
+- A connection should be established before creating commands.
+- The Stored procedure name is inappropriate Because it doesnt clarify the enity that the stored procedure works with and should generaly be prefixed with "sp_"
+- The @search parameter in the stored procedure is also ambiguous, because it doesn't tell me what I'm actually passing to it and what's the purpose for it.
+
+- On line 26 var should be avoided when you can, and I think reference type is SQLDataReader for better performance.
+- The reader could contain multiple data rows in the dataset, you could use a while loop to to read every line of the dataset if more rows are expected.
+- reader.GetValue(0) is also very ambiguous. You can specify the column name that you are expecting, so that it's easier to read and makes sense to future coders.
+
+- On to line 24 a better if statement would be String.IsNullOrEmpty(result) or result.Equals() if you know what's expected.
+
+- On line 26, besides the var keyword. The service name is a little ambiguous. I can see it's trying to instantiate a class but is missing the '()' then emediately tries to access a method. Static methods on classes don't need to be instantiated, unless the Service() method returns an instance of WebServices, in that case the 'new' keyword is not needed.
+The WebServices class is also missing a namespace.
+
+- On line 27 I can't tell what the Validate method does on the service, neither can I tell what it's validating besides that we pass in the arguments of B and result. That Validate method is more like a handler and I would possible seperate it and encapsulate it in a different method. Maybe even in a different class. But it's not a best practice to have more than one responsbility in a class or method.
+
+- With that said. Not all code paths return a value. And I only realize now that this method probably might need to return a bool. However a class should only have a single responsibility and be closed for modification and open for extension. Return types should generally be set to a default at the beginning of the method.
+
+- Dependency injection is also a great practice, to depend on abstraction rather than concretion of classes. Using DI uses memory for effectively, rather than instantiating classes every time a method is triggered. So frequently used objects inside this class should be outside of the method scope, so that it can use the same reference every time you want to establish a new connection, commands and readers.
+- The SQLConnection hasn't been closed() and thus increases traffic with open connections. conn.Close() should be part of the try block.
+
+- It looks like there are unneccessary assemblies being referenced/ unneccessary namespaces.
+
+- Constructor are good for default values or for any dependency injections.
+
+Finally code should be simple, clean, easy to read and understand and follow the basic SOLID principles of programming
+
+

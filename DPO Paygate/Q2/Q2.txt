@@ -1,0 +1,41 @@
+CHECKS:
+
+1. You can have a look at the file format that gets transported, maybe a different file format could possibly make it more efficient, depending on requirements.
+2. Another way could be to send across tokens to trigger a process to minimize commands being sent across.
+3. If TCP communication is being used then surely accurate data would be expected.
+4. Perhaps a different network protocol for different file sizes.
+5. Architectural orchestration could be used to mitigate and shorten workflows as well as ensuring high availability when you are scaling.
+6. If you are working with high amounts of data then surely having more database servers, would be safer and can assist in the efficiency of the commands being sent across or requests.
+7. Using an internal proxy with preset conditions along with commands could trigger workflows faster and enable a more secure architecture, that recognizes process.
+8. Using schedulers for queueing frameworks can ensure the integrity of the data and with that, other processes could also be triggered in case a service is down and for another service to start up again to mitigate stuck queues and restarting of services.
+9. Sending across contracts across to different services could be more efficient and effective, to get the data according to the contract that was sent across. This way your services are loosely coupled and can operate effectively and just retrieve the necessary data in order to execute purposefully.
+10. Using caching can also assist in the efficiency of the requests depending on the requirements of the data and high volumes and obviously the purpose for these commands.
+11. Maximizing the processor and ram of the service. Vertical and horizontal scaling of microservices.
+12. Using the right framework for the machine can speed up the processes, such as C++ being good at hardware related languages and javascript a really good language for anything web related. So using Node.js could be a faster for the web.
+13. Using a clustered database can ensure high availablibility as well using multiple indexes transactual queries for faster executiong.
+14. Using Javascript to interface with 3rd party could be faster since javascript is part the foundation of world wide web.
+15. Using Asynchronicity and multi-threaded application can speed up high volume requests coming in.
+16. If the servers are on prem and require high executional operations, using C++ can be benificial in the effectiveness of executing code.
+17. You can do security checks with tokens and ensuring only authorized 3rd parties are in communication with your system.
+18. Using some of the clouds serverless web services can be used to execute high amounts of data, if they all require to do the same process.
+19. Globalization or localization can assist in the effiency of network traffic.
+20. Staying on the same local architectural system always helps for faster communication.
+
+STEPS TO FOLLOW:
+
+What is the context of the problem? What are the constraints of the problem and the current environment? 
+What would be the best viable solution for the problem and how can it align in the business future strategy for it's architecture and business operations?
+What are the viable ways of transporting these large volumes of data?
+Is the file format neccessary? And why? Find out the pros and cons.
+Is the appropriate network protocal being used and efficient enough for the context of the problem environment eg. at the hardware or software layer of operations.
+What sizes of volumes are expected and how could the handling of the data be most efficient and effective?
+If the speed of the communication is a concern, that high volume concurrent requests are incomming, then surely scaling that piece of operation is the best possible solution. Since you don't want any delays in your communication and for queues to get stuck in processing.
+What are the possible fall back strategies? And for possible transporting data to fail being processed. Also what are the tactics that could be implemented to mitigate these problems and other possible risks to be handled accordingly.
+Weigh up best viable solutions, choose the appropriate solution, prototype the solution, test it in a development staging environment, get it quality approved and by higher management after being reviewed and approved for release and what are the fallback strategies incase something breaks when solution get's plugged in.
+Notify the development department and higher management about the release and when it will released to production.
+Finally checks are being done to ensure the production environment executes as normal and that business continues as normal, as well monitoring logs for any exceptions. And how we will mitigate the issue, either by a hotfix or reset of the previous state of the production system.
+Once all checks are completed and the release is finalized and completed, report back to team leaders and other product owners or busines departments about the production state and the changes that's been made.
+After that continues monitoring should take place incase anything breaks. Ultimately taking the ownership of changes and being accountable.
+
+
+

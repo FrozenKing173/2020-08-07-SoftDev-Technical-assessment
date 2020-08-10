@@ -1,0 +1,13 @@
+C:\Users\FrozenKing173\Desktop\DPO Paygate\Q7\DPO Paygate Question 7\DPO Paygate Question 7\bin\Debug\netcoreapp3.1\DPO Paygate Question 7.exe
+C:\Users\FrozenKing173\Desktop\DPO Paygate\Q7\DPO Paygate Question 7\DPO Paygate Question 7\bin\Debug\netcoreapp3.1\DPO Paygate Question 7.deps.json
+C:\Users\FrozenKing173\Desktop\DPO Paygate\Q7\DPO Paygate Question 7\DPO Paygate Question 7\bin\Debug\netcoreapp3.1\DPO Paygate Question 7.runtimeconfig.json
+C:\Users\FrozenKing173\Desktop\DPO Paygate\Q7\DPO Paygate Question 7\DPO Paygate Question 7\bin\Debug\netcoreapp3.1\DPO Paygate Question 7.runtimeconfig.dev.json
+C:\Users\FrozenKing173\Desktop\DPO Paygate\Q7\DPO Paygate Question 7\DPO Paygate Question 7\bin\Debug\netcoreapp3.1\DPO Paygate Question 7.dll
+C:\Users\FrozenKing173\Desktop\DPO Paygate\Q7\DPO Paygate Question 7\DPO Paygate Question 7\bin\Debug\netcoreapp3.1\DPO Paygate Question 7.pdb
+C:\Users\FrozenKing173\Desktop\DPO Paygate\Q7\DPO Paygate Question 7\DPO Paygate Question 7\obj\Debug\netcoreapp3.1\DPO Paygate Question 7.csprojAssemblyReference.cache
+C:\Users\FrozenKing173\Desktop\DPO Paygate\Q7\DPO Paygate Question 7\DPO Paygate Question 7\obj\Debug\netcoreapp3.1\DPO Paygate Question 7.AssemblyInfoInputs.cache
+C:\Users\FrozenKing173\Desktop\DPO Paygate\Q7\DPO Paygate Question 7\DPO Paygate Question 7\obj\Debug\netcoreapp3.1\DPO Paygate Question 7.AssemblyInfo.cs
+C:\Users\FrozenKing173\Desktop\DPO Paygate\Q7\DPO Paygate Question 7\DPO Paygate Question 7\obj\Debug\netcoreapp3.1\DPO Paygate Question 7.csproj.CoreCompileInputs.cache
+C:\Users\FrozenKing173\Desktop\DPO Paygate\Q7\DPO Paygate Question 7\DPO Paygate Question 7\obj\Debug\netcoreapp3.1\DPO Paygate Question 7.dll
+C:\Users\FrozenKing173\Desktop\DPO Paygate\Q7\DPO Paygate Question 7\DPO Paygate Question 7\obj\Debug\netcoreapp3.1\DPO Paygate Question 7.pdb
+C:\Users\FrozenKing173\Desktop\DPO Paygate\Q7\DPO Paygate Question 7\DPO Paygate Question 7\obj\Debug\netcoreapp3.1\DPO Paygate Question 7.genruntimeconfig.cache
